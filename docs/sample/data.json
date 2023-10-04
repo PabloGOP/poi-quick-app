@@ -1,19 +1,19 @@
 {
     "meta": {
         "app_id": "org.example.same.identifier.manifest.package",
-        "app_title": "City Street Heritage",
+        "app_title": "Spanish historic battles",
         "version": 1,
-        "updated": "2022-09-26",
+        "updated": "2023-10-04",
         "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
     },
     "content": {
-        "en": {
+        "es": {
             "app": {
                 "theme": {
-                    "brand": "#B11623",
-                    "complementary": "#FAFAFA"
+                    "brand": "#FAFAFA",
+                    "complementary": "#B40404"
                 },
                 "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/country/city",
                 "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
@@ -23,20 +23,19 @@
                 "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
             },
             "pois": [{
-                    "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
-                    "type": "statue",
-                    "name": "My Statue",
+                    "id": "navas",
+                    "lat": "38.343",
+                    "lon": "-3.549028",
+                    "type": "event",
+                    "name": "Navas de Tolosa",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
+                        "https://PabloGOP.github.io/poi-quick-app/sample/images/tolosa_old.jpg",
+                        "https://PabloGOP.github.io/poi-quick-app/sample/images/tolosa_act.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "La Batalla de las Navas de Tolosa fue una importante confrontación militar en 1212 en la que las fuerzas cristianas derrotaron a los musulmanes, marcando un punto de inflexión en la Reconquista española.",
+                    "more": "La Batalla de las Navas de Tolosa, que tuvo lugar el 16 de julio de 1212 en el sur de España, fue un enfrentamiento clave en la Reconquista, la lucha de los reinos cristianos ibéricos para recuperar territorio de manos musulmanas. Las fuerzas cristianas, lideradas por Alfonso VIII de Castilla, Pedro II de Aragón y Sancho VII de Navarra, se unieron para enfrentarse a las fuerzas almohades musulmanas lideradas por el califa Muhammad al-Nasir. La batalla culminó con la victoria cristiana, que debilitó significativamente el poder almohade en la península ibérica y allanó el camino para la conquista de territorios musulmanes en los años posteriores. La Batalla de las Navas de Tolosa se considera un hito importante en la historia de la Reconquista y tuvo un impacto duradero en la configuración de la España medieval.",
                     "urls": [
-                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
-                        "https://example.org/mypoi"
+                        "https://es.wikipedia.org/wiki/Batalla_de_las_Navas_de_Tolosa"
                     ]
                 },
                 {
