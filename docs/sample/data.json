@@ -13,7 +13,7 @@
             "app": {
                 "theme": {
                     "brand": "#FAFAFA",
-                    "complementary": "#B40404"
+                    "complementary": "#8b0000"
                 },
                 "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/country/city",
                 "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
